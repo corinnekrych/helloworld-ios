@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Helloworld-app-iOS.xcodeproj">
+      location = "self:Hello World - FeedHenry.xcodeproj">
    </FileRef>
 </Workspace>

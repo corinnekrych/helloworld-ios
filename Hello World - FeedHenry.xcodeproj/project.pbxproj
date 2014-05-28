@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20A2CD21935E8E4000F1324 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F20A2CD01935E8E4000F1324 /* Icon.png */; };
+		F20A2CD31935E8E4000F1324 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20A2CD11935E8E4000F1324 /* Icon@2x.png */; };
 		F20C6529190AA1B200FD47BD /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20C6528190AA1B200FD47BD /* Storyboard.storyboard */; };
 		F20C652D190AA49900FD47BD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20C652C190AA49900FD47BD /* HomeViewController.m */; };
 		F21B7999190E5CEF00248AC3 /* FH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21B7998190E5CEF00248AC3 /* FH.framework */; };
@@ -42,24 +44,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20A2CD01935E8E4000F1324 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F20A2CD11935E8E4000F1324 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		F20C6528190AA1B200FD47BD /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		F20C652B190AA49900FD47BD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F20C652C190AA49900FD47BD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F21B7998190E5CEF00248AC3 /* FH.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FH.framework; sourceTree = "<group>"; };
-		F2E35E90190A8BB800F08BC6 /* Helloworld-app-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helloworld-app-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E35E90190A8BB800F08BC6 /* Hello World - FeedHenry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World - FeedHenry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E35E93190A8BB800F08BC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2E35E95190A8BB800F08BC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F2E35E97190A8BB800F08BC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F2E35E9B190A8BB800F08BC6 /* Helloworld-app-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helloworld-app-iOS-Info.plist"; sourceTree = "<group>"; };
+		F2E35E9B190A8BB800F08BC6 /* Hello World - FeedHenry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello World - FeedHenry-Info.plist"; sourceTree = "<group>"; };
 		F2E35E9D190A8BB800F08BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2E35E9F190A8BB800F08BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2E35EA1190A8BB800F08BC6 /* Helloworld-app-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Helloworld-app-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		F2E35EA1190A8BB800F08BC6 /* Hello World - FeedHenry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello World - FeedHenry-Prefix.pch"; sourceTree = "<group>"; };
 		F2E35EA2190A8BB800F08BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2E35EA3190A8BB800F08BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F2E35EA5190A8BB800F08BC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F2E35EAB190A8BB800F08BC6 /* Helloworld-app-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Helloworld-app-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E35EAB190A8BB800F08BC6 /* Hello World - FeedHenryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello World - FeedHenryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E35EAC190A8BB800F08BC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F2E35EB4190A8BB800F08BC6 /* Helloworld-app-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helloworld-app-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		F2E35EB4190A8BB800F08BC6 /* Hello World - FeedHenryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello World - FeedHenryTests-Info.plist"; sourceTree = "<group>"; };
 		F2E35EB6190A8BB800F08BC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2E35EB8190A8BB800F08BC6 /* iOS_Template_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Template_AppTests.m; sourceTree = "<group>"; };
 		F2E35ECE190A960F00F08BC6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -105,6 +109,8 @@
 		F20C6527190AA05E00FD47BD /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				F20A2CD01935E8E4000F1324 /* Icon.png */,
+				F20A2CD11935E8E4000F1324 /* Icon@2x.png */,
 				F2E35ED8190A982600F08BC6 /* fhconfig.plist */,
 			);
 			name = assets;
@@ -132,8 +138,8 @@
 		F2E35E91190A8BB800F08BC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2E35E90190A8BB800F08BC6 /* Helloworld-app-iOS.app */,
-				F2E35EAB190A8BB800F08BC6 /* Helloworld-app-iOSTests.xctest */,
+				F2E35E90190A8BB800F08BC6 /* Hello World - FeedHenry.app */,
+				F2E35EAB190A8BB800F08BC6 /* Hello World - FeedHenryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,10 +179,10 @@
 		F2E35E9A190A8BB800F08BC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2E35E9B190A8BB800F08BC6 /* Helloworld-app-iOS-Info.plist */,
+				F2E35E9B190A8BB800F08BC6 /* Hello World - FeedHenry-Info.plist */,
 				F2E35E9C190A8BB800F08BC6 /* InfoPlist.strings */,
 				F2E35E9F190A8BB800F08BC6 /* main.m */,
-				F2E35EA1190A8BB800F08BC6 /* Helloworld-app-iOS-Prefix.pch */,
+				F2E35EA1190A8BB800F08BC6 /* Hello World - FeedHenry-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,7 +200,7 @@
 		F2E35EB3190A8BB800F08BC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2E35EB4190A8BB800F08BC6 /* Helloworld-app-iOSTests-Info.plist */,
+				F2E35EB4190A8BB800F08BC6 /* Hello World - FeedHenryTests-Info.plist */,
 				F2E35EB5190A8BB800F08BC6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -212,9 +218,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2E35E8F190A8BB800F08BC6 /* Helloworld-app-iOS */ = {
+		F2E35E8F190A8BB800F08BC6 /* Hello World - FeedHenry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2E35EBC190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "Helloworld-app-iOS" */;
+			buildConfigurationList = F2E35EBC190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "Hello World - FeedHenry" */;
 			buildPhases = (
 				F2E35E8C190A8BB800F08BC6 /* Sources */,
 				F2E35E8D190A8BB800F08BC6 /* Frameworks */,
@@ -224,14 +230,14 @@
 			);
 			dependencies = (
 			);
-			name = "Helloworld-app-iOS";
+			name = "Hello World - FeedHenry";
 			productName = "iOS-Template-App";
-			productReference = F2E35E90190A8BB800F08BC6 /* Helloworld-app-iOS.app */;
+			productReference = F2E35E90190A8BB800F08BC6 /* Hello World - FeedHenry.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F2E35EAA190A8BB800F08BC6 /* Helloworld-app-iOSTests */ = {
+		F2E35EAA190A8BB800F08BC6 /* Hello World - FeedHenryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2E35EBF190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "Helloworld-app-iOSTests" */;
+			buildConfigurationList = F2E35EBF190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "Hello World - FeedHenryTests" */;
 			buildPhases = (
 				F2E35EA7190A8BB800F08BC6 /* Sources */,
 				F2E35EA8190A8BB800F08BC6 /* Frameworks */,
@@ -242,9 +248,9 @@
 			dependencies = (
 				F2E35EB1190A8BB800F08BC6 /* PBXTargetDependency */,
 			);
-			name = "Helloworld-app-iOSTests";
+			name = "Hello World - FeedHenryTests";
 			productName = "iOS-Template-AppTests";
-			productReference = F2E35EAB190A8BB800F08BC6 /* Helloworld-app-iOSTests.xctest */;
+			productReference = F2E35EAB190A8BB800F08BC6 /* Hello World - FeedHenryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -261,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F2E35E8B190A8BB800F08BC6 /* Build configuration list for PBXProject "Helloworld-app-iOS" */;
+			buildConfigurationList = F2E35E8B190A8BB800F08BC6 /* Build configuration list for PBXProject "Hello World - FeedHenry" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -273,8 +279,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2E35E8F190A8BB800F08BC6 /* Helloworld-app-iOS */,
-				F2E35EAA190A8BB800F08BC6 /* Helloworld-app-iOSTests */,
+				F2E35E8F190A8BB800F08BC6 /* Hello World - FeedHenry */,
+				F2E35EAA190A8BB800F08BC6 /* Hello World - FeedHenryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E35E9E190A8BB800F08BC6 /* InfoPlist.strings in Resources */,
+				F20A2CD31935E8E4000F1324 /* Icon@2x.png in Resources */,
 				F20C6529190AA1B200FD47BD /* Storyboard.storyboard in Resources */,
+				F20A2CD21935E8E4000F1324 /* Icon.png in Resources */,
 				F2E35EA6190A8BB800F08BC6 /* Images.xcassets in Resources */,
 				F2E35ED9190A982600F08BC6 /* fhconfig.plist in Resources */,
 			);
@@ -325,7 +333,7 @@
 /* Begin PBXTargetDependency section */
 		F2E35EB1190A8BB800F08BC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2E35E8F190A8BB800F08BC6 /* Helloworld-app-iOS */;
+			target = F2E35E8F190A8BB800F08BC6 /* Hello World - FeedHenry */;
 			targetProxy = F2E35EB0190A8BB800F08BC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,10 +442,10 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS-Template-App/Helloworld-app-iOS-Prefix.pch";
-				INFOPLIST_FILE = "iOS-Template-App/Helloworld-app-iOS-Info.plist";
+				GCC_PREFIX_HEADER = "iOS-Template-App/Hello World - FeedHenry-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Template-App/Hello World - FeedHenry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "Helloworld-app-iOS";
+				PRODUCT_NAME = "Hello World - FeedHenry";
 				SHARED_PRECOMPS_DIR = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,10 +461,10 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS-Template-App/Helloworld-app-iOS-Prefix.pch";
-				INFOPLIST_FILE = "iOS-Template-App/Helloworld-app-iOS-Info.plist";
+				GCC_PREFIX_HEADER = "iOS-Template-App/Hello World - FeedHenry-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Template-App/Hello World - FeedHenry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "Helloworld-app-iOS";
+				PRODUCT_NAME = "Hello World - FeedHenry";
 				SHARED_PRECOMPS_DIR = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -477,8 +485,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iOS-Template-AppTests/Helloworld-app-iOSTests-Info.plist";
-				PRODUCT_NAME = "Helloworld-app-iOSTests";
+				INFOPLIST_FILE = "iOS-Template-AppTests/Hello World - FeedHenryTests-Info.plist";
+				PRODUCT_NAME = "Hello World - FeedHenryTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -495,8 +503,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS-Template-App/Helloworld-app-iOS-Prefix.pch";
-				INFOPLIST_FILE = "iOS-Template-AppTests/Helloworld-app-iOSTests-Info.plist";
-				PRODUCT_NAME = "Helloworld-app-iOSTests";
+				INFOPLIST_FILE = "iOS-Template-AppTests/Hello World - FeedHenryTests-Info.plist";
+				PRODUCT_NAME = "Hello World - FeedHenryTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -505,7 +513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2E35E8B190A8BB800F08BC6 /* Build configuration list for PBXProject "Helloworld-app-iOS" */ = {
+		F2E35E8B190A8BB800F08BC6 /* Build configuration list for PBXProject "Hello World - FeedHenry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2E35EBA190A8BB800F08BC6 /* Debug */,
@@ -514,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2E35EBC190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "Helloworld-app-iOS" */ = {
+		F2E35EBC190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "Hello World - FeedHenry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2E35EBD190A8BB800F08BC6 /* Debug */,
@@ -523,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2E35EBF190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "Helloworld-app-iOSTests" */ = {
+		F2E35EBF190A8BB800F08BC6 /* Build configuration list for PBXNativeTarget "Hello World - FeedHenryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2E35EC0190A8BB800F08BC6 /* Debug */,
