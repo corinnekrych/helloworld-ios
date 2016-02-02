@@ -1,5 +1,5 @@
-# helloworld-ios-app 
-travis
+# helloworld-ios-app [![Build Status](https://travis-ci.org/corinnekrych/helloworld-ios.png)](https://travis-ci.org/corinnekrych/helloword-ios)
+
 > Swift version of HelloWorld app is available [here](https://github.com/feedhenry-templates/helloworld-ios/tree/swift).
 
 ```helloworld-ios-app``` is a simple app to test your remote cloud connection. Its server side companion app: [HelloWorld Cloud App](https://github.com/feedhenry-templates/helloworld-cloud). This template app demos how to intialize a cloud call and make calls to cloud endpoints. The app uses [fh-ios-sdk](https://github.com/feedhenry/fh-ios-sdk). 
